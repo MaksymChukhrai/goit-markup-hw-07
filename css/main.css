@@ -344,6 +344,18 @@ img {
   margin-left: 93px;
 }
 
+.header__contacts {
+  color: var(--primary-grey-color);
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: color var(--transition-speed);
+  transition: color var(--transition-speed);
+}
+
 .header__list-nav,
 .header__contacts-nav,
 .header__contacts-item {
@@ -376,6 +388,12 @@ a.header__contacts:focus {
 a.header__links:hover,
 a.header__links:focus {
   color: var(--accent-color);
+}
+
+a.header__links {
+  color: var(--primary-text-color);
+  -webkit-transition: color var(--transition-speed);
+  transition: color var(--transition-speed);
 }
 
 .header__link-current {
@@ -524,6 +542,12 @@ a.header__links:focus {
   margin-bottom: 30px;
   background-color: var(--our-team-white);
   border-radius: 4px;
+}
+
+.qualities__details {
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--primary-grey-color);
 }
 
 .qualities__icon-antenna,
