@@ -35,6 +35,12 @@
     /* margin-right: auto; */
     margin-left: 93px;
   }
+  .header__contacts {
+    color: var(--primary-grey-color);
+    display: inline-flex;
+    align-items: center;
+    transition: color var(--transition-speed);
+  }
   .header__list-nav,
   .header__contacts-nav,
   .header__contacts-item{
@@ -62,6 +68,10 @@ a.header__contacts:focus {
 a.header__links:hover,
 a.header__links:focus {
   color: var(--accent-color);
+}
+a.header__links {
+  color: var(--primary-text-color);
+  transition: color var(--transition-speed);
 }
 .header__link-current {
     color: var(--accent-color);
