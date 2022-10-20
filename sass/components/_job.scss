@@ -1,11 +1,11 @@
-.section-job {
+.section__job {
     padding-bottom: 94px;
     padding-top: 94px;
   
     margin-right: auto;
     margin-left: auto;
   }
-  .container-job {
+  .container_job {
     display: block;
     max-width: 1200px;
     margin-left: auto;
@@ -13,7 +13,7 @@
     padding-left: 15px;
     padding-right: 15px;
   }
-  .directions{
+  .directions__job{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -24,7 +24,7 @@
   
     color: var(--primary-text-color);
   }
-  .job-img{
+  .img__job{
     list-style: none;
     display: flex;
     flex-wrap: wrap;
@@ -32,12 +32,11 @@
     gap: 30px;
     padding-left: 0px;
   }
-.job-1,
-.job-2,
-.job-3 {
+
+.picture__job {
   position: relative;
 }
-.work-example-title {
+.title__job {
     width: 100%;
     position: absolute;
     bottom: 0;
